@@ -92,10 +92,19 @@ public class pattern {
         }
     }
 
+    static void p9(int n){
+        p7(n);
+        p8(n);
+    }
+
+    static void p10(int n){}
+
+    static void p11(int n){}
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number : ");
         int n = sc.nextInt();
-        p8(n);
+        p9(n);
     }
 }
